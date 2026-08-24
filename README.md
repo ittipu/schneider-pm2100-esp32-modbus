@@ -51,6 +51,10 @@ The sketch polls the meter every 3 seconds and prints the values to the Serial M
 
 > ⚠️ Match A→A and B→B. If communication fails, try swapping A/B first.
 
+### 🖼️ Circuit Diagram
+
+![Schneider PM2100 to ESP32 wiring diagram](schneider_pm2100_data_extraction_with_esp32_circuit_diagram_bb.png)
+
 ---
 
 ## ⚙️ Communication Settings

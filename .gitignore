@@ -12,3 +12,6 @@ build/
 Thumbs.db
 .DS_Store
 desktop.ini
+
+# Fritzing source (keep the exported PNG, ignore the project file)
+*.fzz
