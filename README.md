@@ -139,6 +139,23 @@ Frequency  = 50.00 Hz
 
 ---
 
+## 🔗 Links & Resources
+
+**🛒 Hardware used in this project**
+
+| Component | AliExpress | Amazon |
+|---|---|---|
+| ESP32 dev board | [Buy](https://s.click.aliexpress.com/e/_c2IAMVUX) | [Buy](https://amzn.to/493Wv5A) |
+| RS485 to TTL module | [Buy](https://s.click.aliexpress.com/e/_c3tROnAb) | [Buy](https://amzn.to/4gtYthU) |
+
+**📚 Library**
+
+- [ModbusMaster](https://github.com/4-20ma/ModbusMaster) by Doc Walker
+
+> 🛒 The store links above are affiliate links — using them supports the **IoT Bhai** channel at no extra cost to you. Thank you! 🙏
+
+---
+
 ## 📄 License
 
 Released under the **MIT License**. Free to use, modify, and share.
