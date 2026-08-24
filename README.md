@@ -30,10 +30,14 @@ The sketch polls the meter every 3 seconds and prints the values to the Serial M
 
 | ESP32 Pin | RS485 Module | Purpose |
 |---|---|---|
-| GPIO **18** (RX) | **RO** | Receive from meter |
-| GPIO **19** (TX) | **DI** | Transmit to meter |
+| GPIO **18** (RX) | **RO** *(or `TXD`)* | Receive from meter |
+| GPIO **19** (TX) | **DI** *(or `RXD`)* | Transmit to meter |
 | 3V3 / 5V | VCC | Power (check your module) |
 | GND | GND | Common ground |
+
+> 🔁 **If your module is labeled `TXD` / `RXD`** (instead of `DI` / `RO`), connect them **crossed**:
+> ESP32 RX (GPIO18) → module **TXD**, and ESP32 TX (GPIO19) → module **RXD**.
+> (`RO` = `TXD`, `DI` = `RXD`.)
 
 **RS485 module ↔ PM2100 meter**
 

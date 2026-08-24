@@ -38,8 +38,8 @@ uint16_t reg_addr[TOTAL_REG] = {
 float DATA_METER[TOTAL_REG];   // Latest values read from the meter
 
 /* -------------------- RS485 / Modbus wiring -------------------- */
-#define MODBUS_RX_PIN       18         // ESP32 RX  ->  RO of RS485 module
-#define MODBUS_TX_PIN       19         // ESP32 TX  ->  DI of RS485 module
+#define MODBUS_RX_PIN       18         // ESP32 RX  ->  RO (or TXD) of RS485 module
+#define MODBUS_TX_PIN       19         // ESP32 TX  ->  DI (or RXD) of RS485 module
 #define MODBUS_SERIAL_BAUD  19200      // Must match the meter's baud rate
 #define PARITY              SERIAL_8E1 // 8 data bits, Even parity, 1 stop bit
 
