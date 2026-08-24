@@ -15,12 +15,14 @@ The sketch polls the meter every 3 seconds and prints the values to the Serial M
 
 ## 🧰 Hardware Required
 
-| Component | Notes |
-|---|---|
-| ESP32 dev board | Any ESP32 (uses hardware `Serial2`) |
-| Schneider PM2100 | Power / energy meter with Modbus RTU |
-| RS485 to TTL module | Auto flow-control type recommended (e.g. based on MAX485 with auto-direction, or an auto-DE/RE board) |
-| Jumper wires + 120 Ω terminating resistor | Resistor across A/B on long runs |
+| Component | Qty | Notes | Buy |
+|---|---|---|---|
+| ESP32 dev board | 1 | Any ESP32 (uses hardware `Serial2`) | [AliExpress](https://s.click.aliexpress.com/e/_c2IAMVUX) · [Amazon](https://amzn.to/493Wv5A) |
+| RS485 to TTL module | 1 | Auto flow-control type recommended (auto-direction / auto-DE-RE board) | [AliExpress](https://s.click.aliexpress.com/e/_c3tROnAb) · [Amazon](https://amzn.to/4gtYthU) |
+| Schneider PM2100 | 1 | Power / energy meter with Modbus RTU | — |
+| Jumper wires + 120 Ω terminating resistor | — | Resistor across A/B on long runs | — |
+
+> 🛒 The store links above are affiliate links — using them supports the **IoT Bhai** channel at no extra cost to you. Thank you! 🙏
 
 ---
 
